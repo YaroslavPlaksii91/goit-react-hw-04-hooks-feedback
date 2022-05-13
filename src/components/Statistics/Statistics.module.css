@@ -1,0 +1,8 @@
+.statistics {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.statistics > p:not(:last-child) {
+  margin-bottom: 10px;
+}

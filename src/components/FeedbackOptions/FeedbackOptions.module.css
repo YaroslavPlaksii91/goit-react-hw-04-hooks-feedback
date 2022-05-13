@@ -1,0 +1,19 @@
+.btn {
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: #fff;
+  border-color: transparent;
+}
